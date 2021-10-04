@@ -73,7 +73,7 @@ const About = () => {
                     </div>
                     <div>
                         <h2>Name:Sunny singh</h2>
-                        <h4>Lives in Panjab</h4>
+                        <h4>Lives in Sylhet</h4>
                         <p>I had an amazing experience with this dance academy.</p>
                         <p className="rating-icon">Rating : <AiFillStar/> <AiFillStar/>  <AiFillStar/>  <AiFillStar/>  <AiFillStar/> </p>
                     </div>
@@ -84,8 +84,8 @@ const About = () => {
                         <img style={{height:'100px', width:'100px',borderRadius:'50px'}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrt7geb18glWDrktXdsige5-f2hzroSba-KQ&usqp=CAU" alt="" />
                     </div>
                     <div>
-                        <h2>Name:Raju Sharma</h2>
-                        <h4>Lives in Mumbai</h4>
+                        <h2>Name:Raju Ahmed</h2>
+                        <h4>Lives in Dhaka</h4>
                         <p>I had an amazing experience with this dance academy.</p>
                         <p className="rating-icon">Rating : <AiFillStar/> <AiFillStar/>  <AiFillStar/>  <AiFillStar/>  <AiFillStar/> </p>
                     </div>
@@ -96,7 +96,7 @@ const About = () => {
                     </div>
                     <div>
                         <h2>Name:Abdullah</h2>
-                        <h4>Lives in Pune</h4>
+                        <h4>Lives in Rajshahi</h4>
                         <p>I had an amazing experience with this dance academy.</p>
                         <p className="rating-icon">Rating : <AiFillStar/> <AiFillStar/>  <AiFillStar/>  <AiFillStar/>   </p>
                     </div>

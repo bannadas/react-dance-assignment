@@ -14,4 +14,8 @@
     padding: 30px;
     color: rgb(216, 209, 209);
   }
-  
+  .social-icons{
+    display: flex;
+    justify-content: space-around;
+    font-size:xx-large;
+  }

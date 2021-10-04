@@ -5,7 +5,7 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <div className="banner-container ">
+    <div className="header-container ">
       <div className="">
         <div className="header">
           <NavigationBar></NavigationBar>
@@ -14,8 +14,7 @@ const Header = () => {
               ANY BODY <br /> CAN DANCE
             </h1>
             <p className="text-white text-center mt-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            Dance, when you're broken open. Dance, if you've torn the bandage off. Dance in the middle of the fighting.<br/> Dance in your blood. Dance when you're perfectly free.
             </p>
             
           </div>
