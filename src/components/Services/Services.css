@@ -1,9 +1,15 @@
 .services{
     padding: 30px;
 }
-.cart{
+.service-cart{
+    
     margin:10px ;
     border: 1px solid gray;
-    height: 400px;
+    width: 350px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.919);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
     
 }

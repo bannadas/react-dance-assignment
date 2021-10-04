@@ -13,23 +13,24 @@ const Services = () => {
     return (
         <div>
             <Header></Header>
+            {/* service cards */}
             <div className="container">
-            <h1 className="mt-4">Services</h1>
+            <h1 className="mt-4 bolder"> Our Services</h1>
             <div className="services">
             <div className="row">
                 {
                     services.map(service => (
                         <div className="col-md-4">
-                           <div className="cart">
-                            <div className="logo-image">
+                         <div className="service-cart">
+                        <div className="logo-image">
                         <img src={service.image} alt="" />
-
                             </div>
-                              <div>
-                                <h2>{service.name}</h2>
-                                <p>
+                                <div>
+                                    <h2>{service.name}</h2>
+                                    <p>
                                     {service.description}
-                                </p>
+                                    </p>
+                                
                                 </div> 
                            </div>
                         </div>

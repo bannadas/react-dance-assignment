@@ -2,3 +2,21 @@
     margin: 50px;
     border: 1px solid red;
 }
+.category-card{
+    background-color: rgb(50, 53, 50);
+    color: white;
+}
+
+.cart{
+    margin:10px ;
+    border: 1px solid gray;
+    width: 500px;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.919);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.cart img{
+    width: 100%;
+}
