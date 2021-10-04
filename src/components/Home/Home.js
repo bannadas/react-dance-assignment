@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, CardGroup} from 'react-bootstrap';
 
 const Home = () => {
-    const [services, setServices] = useState([]);
+    const [services,setServices] = useState([]);
     useEffect(() => {
         fetch('./homedata.json')
         .then(res => res.json())
