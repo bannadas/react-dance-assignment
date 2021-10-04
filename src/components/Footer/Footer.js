@@ -19,9 +19,7 @@ const Footer = () => {
                   </small>
                 </p>
 
-                {/* <p className="mt-5">
-                  <small>Zemez © . All rights reserved.</small>
-                </p> */}
+                
               </div>
             </div>
             <div className="col-md-2">
@@ -35,7 +33,9 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            
+            <div className="col-md-5">
+              <input type="text"  />
+            </div>
           </div>
         </div>
       </div>

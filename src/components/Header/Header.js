@@ -1,6 +1,7 @@
 import React from 'react';
 import NavigationBar from '../../NavigationBar/NavigationBar';
 import './Header.css'
+import '../../images/images (1).jpg'
 
 const Header = () => {
   return (
@@ -18,7 +19,9 @@ const Header = () => {
             </p>
             <button className="mt-3 about-btn">About Us</button>
           </div>
-          <div className="col-md-6"></div>
+          <div className="col-md-6 header-image">
+            {/* <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQSns2MUfe7_6SxXkSfd1faIYtkM1P9Gr1GQ&usqp=CAU" alt="" /> */}
+          </div>
         </div>
       </div>
     </div>
