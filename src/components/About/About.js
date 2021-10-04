@@ -13,20 +13,20 @@ const About = () => {
             <div className="about-us m-4">
             <CardGroup>
   <Card>
-    <Card.Body style={{backgroundColor:'gray',color:'white'}}>
+    <Card.Body className="mission-and-vision">
       <Card.Title>Our mission</Card.Title>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate nihil ipsam, magni odit laborum corporis rem ea, quo alias inventore totam delectus eveniet sint suscipit numquam corrupti aliquam itaque! Lorem, ipsum dolor sit amet consectetur adipisicing elit.</small>
+      <small className="text-muted">Our mission is to help everyone in fullfilling their dreams.We believe that there is no age to learn dance. People of any ages can learn dance.Dancing helps you to stay physically and mentally fit. Even more so, dancing regularly can improve your general well-being, boosts your self-esteem and has also been shown to improve your social skills.</small>
     </Card.Footer>
   </Card>
   
   <Card >
-    <Card.Body style={{backgroundColor:'gray',color:'white'}}>
+    <Card.Body className="mission-and-vision" >
       <Card.Title>Our vision</Card.Title> 
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur inventore quidem earum quas quaerat blanditiis, deleniti magnam sit, quo esse ea iure quos asperiores beatae autem similique ab optio? Tenetur illo fugit voluptatibus hic sequi odio totam a laboriosam consequatur.</small>
+      <small className="text-muted">Dancing is so much more than just grooving on the dance floor to your favorite tunes. In fact, you’ll be surprised how many benefits are associated with dancing. Not only does it train your brain and your body’s motor skills but it also is an excellent exercise for your entire body. Here are some of the greatest dance quotes of all time to celebrate the joy of dancing.</small>
     </Card.Footer>
   </Card>
 </CardGroup>
@@ -34,9 +34,9 @@ const About = () => {
 
 
             {/* instructors */}
-            <h1>Meet Our Professional Instructor Team</h1>
+            <h1 style={{fontWeight:'bold', marginTop:'5px'}}>Meet Our Professional Instructor Team</h1>
             <div className=" container instructors m-4">
-                <div className="row container cards">
+                <div className="row">
                 <div className="col-md-4">
                     <div className="instructor-card">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhcRblFblgUROXDpxB7TDghgURaoB5yA2ORA&usqp=CAU" alt="" />
@@ -65,15 +65,15 @@ const About = () => {
 
             {/* reviews */}
             <div className="container">
-                <h1>Client reviews</h1>
-                <div className="row">
+                <h1 style={{fontWeight:'bold', margin:'10px'}}>Client reviews</h1>
+                <div className="row mt-3">
                     <div className="col-md-4 review-card">
                     <div>
                         <img style={{height:'100px', width:'100px',borderRadius:'50px'}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ02BDII05FNgN6bNDWDTi_lxpCeD5zrwbZmA&usqp=CAU" alt="" />
                     </div>
                     <div>
                         <h2>Name:Sunny singh</h2>
-                        <h4>Lives in Sylhet</h4>
+                        <h5>Lives in Sylhet</h5>
                         <p>I had an amazing experience with this dance academy.</p>
                         <p className="rating-icon">Rating : <AiFillStar/> <AiFillStar/>  <AiFillStar/>  <AiFillStar/>  <AiFillStar/> </p>
                     </div>
@@ -85,7 +85,7 @@ const About = () => {
                     </div>
                     <div>
                         <h2>Name:Raju Ahmed</h2>
-                        <h4>Lives in Dhaka</h4>
+                        <h5>Lives in Dhaka</h5>
                         <p>I had an amazing experience with this dance academy.</p>
                         <p className="rating-icon">Rating : <AiFillStar/> <AiFillStar/>  <AiFillStar/>  <AiFillStar/>  <AiFillStar/> </p>
                     </div>
@@ -96,7 +96,7 @@ const About = () => {
                     </div>
                     <div>
                         <h2>Name:Abdullah</h2>
-                        <h4>Lives in Rajshahi</h4>
+                        <h5>Lives in Rajshahi</h5>
                         <p>I had an amazing experience with this dance academy.</p>
                         <p className="rating-icon">Rating : <AiFillStar/> <AiFillStar/>  <AiFillStar/>  <AiFillStar/>   </p>
                     </div>

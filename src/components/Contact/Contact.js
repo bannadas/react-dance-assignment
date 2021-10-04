@@ -17,7 +17,7 @@ const Contact = () => {
 
                 {/* address and number */}
                 <div className="col-md-6">
-            <h2>Get In Touch</h2>
+            <h2 className="mb-3">Get In Touch</h2>
             <p><AiFillPhone/> 12485799228</p>
             <p><AiTwotoneMail/> anybodycandance@gmail.
             com</p>

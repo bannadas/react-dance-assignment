@@ -39,9 +39,9 @@ const Footer = () => {
             <div className="col-md-5">
               <h4>Opening hours</h4>
               <p>Contemporary :  09.00 AM- 11.00AM</p>
-              <p>Folk Dance   :  11.00 AM- 1.00PM</p>
+              <p>Folk Dance   :  11.00 AM- 01.00PM</p>
               <p>Bharatnatyam :  01.00 PM- 03.00PM</p>
-              <p>Ballet       :  03.00 AM- 05.00PM</p>
+              <p>Ballet       :  03.00 PM- 05.00PM</p>
             </div>
           </div>
           <div className="social-icons"><AiOutlineFacebook/> <AiOutlineInstagram/> <AiOutlineYoutube/></div>
