@@ -13,6 +13,7 @@ const Services = () => {
     return (
         <div>
             <Header></Header>
+            <div className="container">
             <h1 className="mt-4">Services</h1>
             <div className="services">
             <div className="row">
@@ -34,6 +35,7 @@ const Services = () => {
                         </div>
                     ))
                 }
+            </div>
             </div>
             </div>
             <Footer></Footer>

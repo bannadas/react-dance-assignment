@@ -19,7 +19,7 @@ const Home = () => {
             <Header></Header>
 
         {/* dance categories */}
-        <div>
+        <div className="container">
             <h2>Dance has no age!</h2>
         <CardGroup>
   <Card>
@@ -68,7 +68,7 @@ const Home = () => {
             
 
             {/* service cards */}
-            <div className="service-cards">
+            <div className="service-cards container">
             <h1 className="mt-4"> Home Services</h1>
             <div className="services">
             <div className="row">
