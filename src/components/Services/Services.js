@@ -30,6 +30,7 @@ const Services = () => {
                                     <p>
                                     {service.description}
                                     </p>
+                                    <h3>Price per lesson {service.price}</h3>
                                 
                                 </div> 
                            </div>
