@@ -84,7 +84,7 @@ const Home = () => {
                                 <p>
                                     {service.description}
                                 </p>
-                                <h2> Price per lession {service.price}</h2>
+                                <h2> Price per lesson {service.price}</h2>
                               </div> 
                            </div>
                       </div>
