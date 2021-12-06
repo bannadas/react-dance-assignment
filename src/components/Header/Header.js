@@ -12,7 +12,7 @@ const Header = () => {
           <NavigationBar></NavigationBar>
          
             <h1 className="title mt-5">
-              ANY BODY <br /> CAN DANCE (edit)
+              ANY BODY <br /> CAN DANCE 
             </h1>
             <p className="text-white text-center mt-3">
             Dance, when you're broken open. Dance, if you've torn the bandage off. Dance in the middle of the fighting.<br/> Dance in your blood. Dance when you're perfectly free.
